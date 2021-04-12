@@ -11,6 +11,6 @@ with open('package_data.yml','r') as package_data_file:
 setup(
     name="{{cookiecutter.app_name}}",
     version=f"{package_data.get('version')}",
-    py_modules=["{{cookiecutter.app_name}}.py"],
+    py_modules=["{{cookiecutter.app_name}}"],
     install_requires=[""],
 )
