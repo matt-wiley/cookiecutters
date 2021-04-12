@@ -1,8 +1,6 @@
 from setuptools import setup, find_packages
 import yaml
 
-
-
 with open('app_data.yml','r') as app_data_file:
     app_data = yaml.load(app_data_file,yaml.SafeLoader)
 
