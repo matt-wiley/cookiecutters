@@ -1,7 +1,7 @@
-# mattwiley/cookiecutters
+# matt-wiley/cookiecutters
 
 Usage
 
 ```sh
-cookiecutter gl:mattwiley/cookiecutters --directory <template_dirname>
+cookiecutter gh:matt-wiley/cookiecutters --directory <template_dirname>
 ```
